@@ -1,0 +1,139 @@
+.project.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+
+.project.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.project-title{
+  margin: 5% 0;
+  color: #BD0034;
+  font-size: 4vh;
+}
+
+.project.string{
+  margin: 5%;
+  color: #FDB731;
+  font-size: 6vh;
+}
+
+.project.name {
+  color: #FDB731;
+  font-size: 4vh;
+}
+
+.project.name:hover { 
+  color: white;
+}
+
+.project.text {
+  color: white;
+  font-size: 3vh;
+  margin-bottom: 5%;
+}
+
+.project.each {
+  margin: 5% 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mini-bar {
+  margin: 0 5%;
+}
+
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  color: #666;
+}
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background-color:#030321;
+  color: #FFF;
+}
+
+#toggle:checked ~ #expand {
+  height: 100px;
+}
+#toggle:checked ~ label::before {
+  
+}
+
+#expand2 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background-color:#030321;
+  color: #FFF;
+}
+
+#toggle2:checked ~ #expand2 {
+  height: 100px;
+}
+#toggle2:checked ~ label::before {
+  
+}
+
+#expand3 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background-color:#030321;
+  color: #FFF;
+}
+
+#toggle3:checked ~ #expand3 {
+  height: 100px;
+}
+#toggle3:checked ~ label::before {
+  
+}
+
+@media screen and (min-width: 450px) {
+
+  .project.string {
+    font-size: 7vh;
+    width: 100%;
+  }
+
+  .project-title{
+    margin: 0;
+    color: #BD0034;
+    font-size: 4vh;
+  }
+
+  .project.each {
+    margin: 3% 0;
+  }
+
+
+}
+

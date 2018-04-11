@@ -1,0 +1,93 @@
+
+/* GENERAL ELEMENTS */
+html, body{
+  background: #030321;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: #BD0034
+}
+
+a:visited {
+    text-decoration: none;
+    color: #BD0034
+}
+
+
+
+/* LANDING PAGE */
+.headline {
+    margin-bottom: 50%;
+
+}
+
+
+.title {
+    margin-top: 50%;
+    display: inline-block;
+    width: 100%
+}
+
+.subtitle {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    font-size: 2.5vh;
+    color: white;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: block;
+  }
+
+
+
+
+/* DESKTOP */
+@media screen and (min-width: 450px) {
+   
+    .headline {
+        margin-bottom: 5%;
+    }
+    
+    
+    .title {
+        margin-top: 0%;
+    }
+
+    .subtitle {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+        padding: 0;
+        display: none;
+        font-size: 4vh;
+        color: white;
+      }
+
+      svg {
+          font-size: 25vh;
+      }
+
+      .landing{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        vertical-align: middle;
+        }
+
+    }

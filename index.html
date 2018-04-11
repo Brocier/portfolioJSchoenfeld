@@ -1,32 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JSchoenfeld's Portfolio</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="mytech.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="hover-min.css" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='./MD.ico' />
+    <title>Marco Dell'Olio</title>
 </head>
-
 <body>
-    <div class="main">
-        <div class="text">
-            <h1>Schoenfeld, Joshua</h1>
-            <h2>Here's my portfolio</h2>
-            <p>test</p>
-            <div> Perhaps using github.com as my portfolio? </div>
-            <ul> for each thing linked:
-                <li>What problem was I solving? </li>
-                <li>How did I go about solving that problem?</li>
-            </ul>
-            <div class="projectsLinks">
-                <p>links to my Projects</p>
-                <a href="">First Project, Quotes-Guesser</a>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113154387-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113154387-1');
+</script>
+<div id="fullpage">
+
+    <div class="section">
+            
+
+        <div class="landing">
+            <div class="title">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">MD</text>
+                    </symbol>
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </div>
+            <section class="subtitle">
+                <div class="container">
+                <h1 id="op" class="header" >Software Engineer</h1>
+                </div>
+            </section>
+
+            <div class="arrowdown">
+                    <i class="fas fa-angle-down faa-falling animated"></i>
+            </div>
+        </div>    
+    </div>
+
+
+	<div class="section">
+            <div class="slide"> 
+                    <div class="aboutme wrapper">
+                        <div class="aboutme-title">About me. <span class="quick">Quickly.</span></div>
+                        <div class="short odd one">
+                            <div class="amlogo"><i class="fas fa-terminal"></i></div>
+                            <div class="amtext">I love working on the server side</div>
+                        </div>
+                        <div class="short even two">
+                            <div class="amtext">Node.js is my favorite tool</div>
+                            <div class="amlogo"><i class="fab fa-node-js"></i></div>
+                        </div>
+                        <div class="short odd three">
+                            <div class="amlogo"><i class="fab fa-slideshare"></i></div>
+                            <div class="amtext">I'm happiest around people</div>
+                        </div>
+                        <div class="short even four">
+                            <div class="amtext">I learn quickly</div>
+                            <div class="amlogo"><i class="fas fa-cogs"></i></div>
+                        </div>
+                        <div class="short odd five">
+                            <div class="amlogo"><i class="fas fa-flask"></i></div>
+                            <div class="amtext">I don't hesitate to experiment</div>
+                        </div>
+                        <div class="short even six">
+                            <div class="amtext">I put my heart in what I do</div>
+                            <div class="amlogo"><i class="fas fa-fire"></i></div>
+                        </div>
+                    
+                            <div class="learn">
+                               <a href="#secondPage/1">learn more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                            <div class="arrowdown">
+                                    <i class="fas fa-angle-down faa-falling animated"></i>
+                            </div>
+    
+                    </div>
+            </div>
+            
+            
+            <div class="slide">
+                    <div class="aboutme wrapper">
+                            <div class="aboutme string" id="am1">Hi. I am Marco and I have built things all of my life.</div>
+                            <div class="aboutme string" id="am2">As a rock climber I learned early on that ascending a rock face requires breaking down a complex line and constructing  the most efficient path to reach the top.</div>
+                            <div class="aboutme string" id="am3">Through my violin, I realized that the only way to perfect a piece is taking it measure by measure.</div>
+                            <div class="aboutme string" id="am4">The challenge of taking on hard problems, breaking them apart and uncovering their secrets.</div>
+                            <div class="aboutme string" id="am5">This is my inspiration</div>
+                            <div class="arrowdown">
+                                    <i class="fas fa-angle-down faa-falling animated"></i>
+                            </div>
+                        </div>
+            </div>
+              
+    </div>
+	<!-- <div class="section">
+        <div class="mytech wrapper">
+            <div class="mytech-title">My technologies</div>
+            <div class="mytech logo"><img src="http://www.techjini.com/wp-content/uploads/2017/01/nodejs-logo.png" alt=""></div>
+            <div class="mytech logo"><img src="http://blog.theodo.fr/wp-content/uploads/2015/11/mongodb.png" alt=""></div>
+            <div class="mytech logo"><img src="https://www.essitco.com/wp-content/uploads/2017/05/react.png" alt=""></div>
+            <div class="mytech logo"><img src="http://www.desartlab.com/wp-content/uploads/2015/10/jquery_logo.gif" alt=""></div>
+            <div class="mytech logo"><img src="https://i2.wp.com/code4developers.com/wp-content/uploads/2018/01/Redux.png?fit=312%2C244" alt=""></div>
+            <div class="mytech logo"><img src="http://www.unixstickers.com/image/cache/data/stickers/rails/rails-new.sh-600x600.png" alt=""></div>
+            <div class="mytech logo"><img src="https://safenet.gemalto.com/uploadedImages/images/Logos/postgresql-logo.png" alt=""></div>
+            <div class="mytech logo"><img src="https://www.rosehosting.com/blog/wp-content/uploads/2015/10/express_js.png" alt=""></div>
+            <div class="mytech logo"><img src="https://git-scm.com/images/logos/logomark-orange@2x.png" alt=""></div>
+            <div class="mytech logo"><img src="http://blog.bluegrassdigital.com/media/171742/agile.png" alt=""></div>
+            <div class="mytech logo"><img src="https://www.psdmockups.com/wp-content/uploads/2016/07/balsamiq.jpg" alt=""></div>
+            <div class="mytech logo"><img src="https://lh3.googleusercontent.com/z7oKSvTI-2ynS5bHggIctR9GVkS8sGKqpDlfCvgxLo0du7Az00u6XpJ0LLyvzBusW-Jd=w300" alt=""></div>
+        </div>
+    </div> -->
+    <!-- set a timer -->
+	<div class="section">
+          
+        <div class="project quote-wrapper">
+            <div class="project string">Through lessons learned and experimentation, my projects represent my evolution in techniques and technologies as a developer.</div>
+       
+            <div class="arrowdown">
+                    <i class="fas fa-angle-down faa-falling animated"></i>
             </div>
         </div>
+        
     </div>
-</body>
 
+    <div class="section">
+            <div class="project wrapper">
+                    <div class="project-title">My work</div>                       
+                    <div class="project each"> 
+                            <input id="toggle" type="checkbox" unchecked>
+                            <label for="toggle" class="project name">Connect Souls</label>
+                            <div id="expand">
+                                    <div class="project text">A game inspired by the famous Connect 4</div> 
+                                    <div> 
+                                        <span class="mini-bar"><a href="https://connectsouls.bitballoon.com/" target="_blank">Site</a></span>
+                                        <span class="mini-bar"><a href="https://github.com/MarcoDellOlio/Connect-four" target="_blank">Github</a></span> 
+                                    </div>
+                            </div>
+                    </div>
+        
+                    <div class="project each">
+                            <input id="toggle2" type="checkbox" unchecked>
+                            <label for="toggle2" class="project name">Tile Tracker</label>
+                            <div id="expand2">
+                                    <div class="project text">An AGILE based software development tool</div> 
+                                    <div> 
+                                        <span class="mini-bar"><a href="https://tile-tracker.herokuapp.com/" target="_blank">Site</a></span>
+                                        <span class="mini-bar"><a href="http://https://github.com/MarcoDellOlio/tile-tracker" target="_blank">Github</a></span> 
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="project each">
+                            <input id="toggle3" type="checkbox" unchecked>
+                            <label for="toggle3" class="project name">The Informer</label>
+                            <div id="expand3">
+                                    <div class="project text">A News searcher and organizer</div> 
+                                    <div> 
+                                        <span class="mini-bar"><a href="https://theinformer.herokuapp.com/" target="_blank">Site</a></span>
+                                        <span class="mini-bar"><a href="https://github.com/MarcoDellOlio/theinformer" target="_blank">Github</a></span> 
+                                    </div>
+                            </div>
+                    </div>
+                    
+                    <div class="arrowdown">
+                            <i class="fas fa-angle-down faa-falling animated"></i>
+                    </div>
+                </div>
+        
+    </div>
+    <div class="section">
+        <div class="contact wrapper">
+
+            <div class="contact info" id="cinfo">
+                <div>get in touch</div>
+                <div class="contact-title">Marco Dell'Olio</div>
+                <div>+1 678 276 6076</div>
+            </div>      
+
+            <div class="contact-bar" id="cbar">
+                <a href="https://github.com/MarcoDellOlio" target="_blank"><i class="fab fa-github  faa-pulse animated-hover"></i></a>  
+                <a href="https://www.linkedin.com/in/marcodellolio/?locale=en_US" target="_blank"><i class="fab fa-linkedin  faa-pulse animated-hover"></i></a>  
+                <a href="mailto: dellolio.marco@gmail.com"><i class="fa fa-envelope  faa-pulse animated-hover"></i></a>   
+            </div>
+                
+                
+        </div>
+        
+    </div>
+</div>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script src="https://use.fontawesome.com/b6f774a9c7.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
